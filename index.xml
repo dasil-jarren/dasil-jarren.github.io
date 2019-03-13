@@ -100,10 +100,10 @@ rm Untitled.md
     
     <item>
       <title>Example Page</title>
-      <link>/blogposts/example/</link>
+      <link>/snippets/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
       
-      <guid>/blogposts/example/</guid>
+      <guid>/snippets/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -115,6 +115,16 @@ rm Untitled.md
 &lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
