@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Jarren Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2019 16:51:00 -0500</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Disease Network</title>
+      <link>/project/uiowa-practicum/</link>
+      <pubDate>Thu, 14 Mar 2019 16:51:00 -0500</pubDate>
+      
+      <guid>/project/uiowa-practicum/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>External Project</title>
