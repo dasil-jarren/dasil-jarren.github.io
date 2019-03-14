@@ -37,10 +37,10 @@
     
     <item>
       <title>Inaugural Post</title>
-      <link>/snippets/inaugural/</link>
+      <link>/snippets/20190314_inaugural/</link>
       <pubDate>Thu, 14 Mar 2019 09:44:00 -0500</pubDate>
       
-      <guid>/snippets/inaugural/</guid>
+      <guid>/snippets/20190314_inaugural/</guid>
       <description>&lt;p&gt;This is my inaugural first post of the &lt;strong&gt;Snippets&lt;/strong&gt; page, and I figured I would kick it off in a cliché way: &amp;ldquo;Hello World&amp;rdquo;!&lt;/p&gt;
 
 &lt;p&gt;Although this is not my first time writing code, this is my first successful attempt at creating a website for myself.  I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end.  Using R and the &lt;code&gt;blogdown&lt;/code&gt; package (along with many other useful resources and documentation), I have finally been able to accomplish what I started almost 2-3 years ago.&lt;/p&gt;
@@ -116,10 +116,30 @@ rm Untitled.md
     
     <item>
       <title>Example</title>
-      <link>/snippets/example1/</link>
+      <link>/snippets/20190314_test/</link>
       <pubDate>Wed, 14 Mar 2018 08:00:00 -0500</pubDate>
       
-      <guid>/snippets/example1/</guid>
+      <guid>/snippets/20190314_test/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example1</title>
+      <link>/snippets/20190414_test/</link>
+      <pubDate>Wed, 14 Mar 2018 08:00:00 -0500</pubDate>
+      
+      <guid>/snippets/20190414_test/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
