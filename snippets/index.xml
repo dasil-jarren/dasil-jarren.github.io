@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Inaugural Post</title>
-      <link>/snippets/example/</link>
+      <title>03/14/2019: Inaugural Post</title>
+      <link>/snippets/inaugural/</link>
       <pubDate>Thu, 14 Mar 2019 09:44:00 -0500</pubDate>
       
-      <guid>/snippets/example/</guid>
+      <guid>/snippets/inaugural/</guid>
       <description>This is my inaugural first post of the Snippets page, and I figured I would kick it off in a cliché way: &amp;ldquo;Hello World&amp;rdquo;!
 Although this is not my first time writing code, this is my first successful attempt at creating a website for myself. I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end.</description>
     </item>
@@ -30,17 +30,6 @@ Although this is not my first time writing code, this is my first successful att
       <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
 Tip 1 &amp;hellip;
 Tip 2 &amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Rmd Example</title>
-      <link>/snippets/example2/</link>
-      <pubDate>Wed, 14 Mar 2018 10:00:00 -0500</pubDate>
-      
-      <guid>/snippets/example2/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
   </channel>
