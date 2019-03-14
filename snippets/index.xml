@@ -12,20 +12,19 @@
     
     
     <item>
-      <title>Example Page</title>
+      <title>Inaugural Post</title>
       <link>/snippets/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 14 Mar 2019 09:44:00 -0500</pubDate>
       
       <guid>/snippets/example/</guid>
-      <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:
-Tip 1 &amp;hellip;
-Tip 2 &amp;hellip;</description>
+      <description>This is my inaugural first post of the Snippets page, and I figured I would kick it off in a cliché way: &amp;ldquo;Hello World&amp;rdquo;!
+Although this is not my first time writing code, this is my first successful attempt at creating a website for myself. I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end.</description>
     </item>
     
     <item>
       <title>Example Page1</title>
       <link>/snippets/example1/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 14 Mar 2018 10:00:00 -0500</pubDate>
       
       <guid>/snippets/example1/</guid>
       <description>In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:

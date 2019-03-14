@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>/snippets/example/</loc>
+      <lastmod>2019-03-14T09:44:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/snippets/</loc>
       <lastmod>2018-03-13T14:26:00-05:00</lastmod>
     </url>
@@ -28,16 +36,8 @@
     
     <url>
     
-      <loc>/snippets/example/</loc>
-      <lastmod>2018-09-09T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/snippets/example1/</loc>
-      <lastmod>2018-09-09T00:00:00-05:00</lastmod>
+      <lastmod>2018-03-14T10:00:00-05:00</lastmod>
     </url>
     
   
