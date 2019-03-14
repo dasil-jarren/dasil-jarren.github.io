@@ -28,11 +28,12 @@
   
     
   
-  <meta name="description" content="This is my inaugural first post of the Snippets page, and I figured I would kick it off in a cliché way: &ldquo;Hello World&rdquo;!
-Although this is not my first time writing code, this is my first successful attempt at creating a website for myself. I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end.">
+  <meta name="description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/snippets/example/">
+  <link rel="alternate" hreflang="en-us" href="/snippets/example2/">
 
   
 
@@ -121,7 +122,7 @@ Although this is not my first time writing code, this is my first successful att
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/snippets/example/">
+  <link rel="canonical" href="/snippets/example2/">
 
   
   
@@ -136,22 +137,23 @@ Although this is not my first time writing code, this is my first successful att
   <meta property="twitter:creator" content="@dasil_jarren">
   
   <meta property="og:site_name" content="Jarren Santos">
-  <meta property="og:url" content="/snippets/example/">
-  <meta property="og:title" content="Inaugural Post | Jarren Santos">
-  <meta property="og:description" content="This is my inaugural first post of the Snippets page, and I figured I would kick it off in a cliché way: &ldquo;Hello World&rdquo;!
-Although this is not my first time writing code, this is my first successful attempt at creating a website for myself. I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/snippets/example2/">
+  <meta property="og:title" content="Rmd Example | Jarren Santos">
+  <meta property="og:description" content="R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-03-14T09:44:00-05:00">
+  <meta property="article:published_time" content="2018-03-14T10:00:00-05:00">
   
-  <meta property="article:modified_time" content="2019-03-14T09:44:00-05:00">
-  
-
+  <meta property="article:modified_time" content="2018-03-14T10:00:00-05:00">
   
 
   
 
-  <title>Inaugural Post | Jarren Santos</title>
+  
+
+  <title>Rmd Example | Jarren Santos</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -359,7 +361,7 @@ Although this is not my first time writing code, this is my first successful att
     <a class="docs-toc-link" href="/snippets/example/">March 2019</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
+      <li >
         <a href="/snippets/example/">Inaugural Post</a>
       </li>
       
@@ -367,7 +369,7 @@ Although this is not my first time writing code, this is my first successful att
         <a href="/snippets/example1/">Example Page1</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/snippets/example2/">Rmd Example</a>
       </li>
       
@@ -387,7 +389,12 @@ Although this is not my first time writing code, this is my first successful att
       <p class="docs-toc-title">On this page</p>
       
 
-      
+      <nav id="TableOfContents">
+<ul>
+<li><a href="#r-markdown">R Markdown</a></li>
+<li><a href="#including-plots">Including Plots</a></li>
+</ul>
+</nav>
 
       <ul class="nav toc-top">
         <li><a href="#">Back to top</a></li>
@@ -402,16 +409,53 @@ Although this is not my first time writing code, this is my first successful att
       <article class="article" itemscope itemtype="http://schema.org/Article">
 
         <div class="docs-article-container">
-          <h1 itemprop="name">Inaugural Post</h1>
+          <h1 itemprop="name">Rmd Example</h1>
 
           <div class="article-style" itemprop="articleBody">
-            <p>This is my inaugural first post of the <strong>Snippets</strong> page, and I figured I would kick it off in a cliché way: &ldquo;Hello World&rdquo;!</p>
+            
 
-<p>Although this is not my first time writing code, this is my first successful attempt at creating a website for myself.  I have actually tried doing something like this since Fall 2016; all my attempts have been quashed by some technical issue or lack of motivation on my end.  Using R and the <code>blogdown</code> package (along with many other useful resources and documentation), I have finally been able to accomplish what I started almost 2-3 years ago.</p>
+<h1 id="r-markdown">R Markdown</h1>
 
-<p>With this in mind, see below:</p>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax
+for authoring HTML, PDF, and MS Word documents. For more details on
+using R Markdown see
+<a href="http://rmarkdown.rstudio.com" class="uri"><a href="http://rmarkdown.rstudio.com" target="_blank">http://rmarkdown.rstudio.com</a></a>.</p>
 
-<p><code>print(&quot;Hello World!&quot;)</code></p>
+<p>You can embed an R code chunk like this:</p>
+
+<pre><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932
+</code></pre>
+
+<h1 id="including-plots">Including Plots</h1>
+
+<p>You can also embed plots. See Figure @ref(fig:pie) for example:</p>
+
+<pre><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+</code></pre>
+
+<p><img src="example2_files/figure-markdown_strict/pie-1.png" alt="A fancy pie chart." /></p>
 
           </div>
 
@@ -420,7 +464,7 @@ Although this is not my first time writing code, this is my first successful att
         </div>
 
         <div class="body-footer">
-          Last updated on Mar 14, 2019
+          Last updated on Mar 14, 2018
         </div>
 
       </article>
